@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Interface</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="top-bar">
+    <button id="backButton">←</button>
+    <div class="top-bar-right">
+      <div id="wordCount">0</div>
+      <button id="saveButton">save</button>
+    </div>
+  </div>
+  <div class="input-wrapper">
+    <textarea 
+      id="typingInput"
+      placeholder="Start typing..."
+      autocomplete="off"
+      autocorrect="off"
+      spellcheck="false"
+    ></textarea>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
